@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner-img.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header a.active {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    top: 0;
+    right: 0;
+
+}
+
+nav {
+    width: 25%;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    background-color: rgb(57, 223, 223);
+    display: none;
+    height: 65.7%;
+}
+
+#closeid {
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    z-index: 3;
+    top: 0;
+    padding: 2px;
+    background-color: darkcyan;
+}
+
+.container {
+    width: 1170px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 30px;
+
+
+}
+
+.headcon {
+    text-align: center;
+
+}
+
+.headcon h3 {
+    margin-top: 100px;
+    padding: 10px;
+    color: white;
+    max-width: 100%;
+    padding-left: 0px;
+    display: inline-block;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+
+}
+
+.headcon p {
+    padding: 20px 0 10px 0;
+    line-height: 1.5;
+    max-width: 20%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.headcon a {
+    margin-top: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px 20px 10px 20px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.contimg .container .row {
+    display: table;
+    width: 100%;
+    background: #21325E;
+
+}
+
+.contimg .container .row .col2 {
+    width: 40%;
+    float: left;
+}
+
+.contimg .container .row .col2 .onlyimg img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.contimg .container .row .col2.second {
+    max-width: 60%;
+    height: 100%;
+    width: 100%;
+}
+
+.col2cont h4 {
+    margin: 50px 0 20px 50px;
+    text-transform: uppercase;
+    max-width: 40%;
+    font-size: 20px;
+    line-height: 2.2rem;
+    color: white;
+}
+
+.col2cont p {
+    margin: 10px 0 20px 50px;
+    max-width: 60%;
+    color: white;
+}
+
+.contimg .container {
+    width: 100%;
+}
+
+.lastsec {
+    background-color: #11468F;
+}
+
+.middlecon {
+    text-align: center;
+}
+
+.middlecon h3 {
+    text-transform: uppercase;
+    padding: 40px;
+    font-size: 23px;
+    color: white;
+}
+
+.middlecon p {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+}
+
+.cont {
+    width: 50%;
+    margin-left: 22%;
+}
+
+.cont .row .col4 {
+    float: left;
+    width: 50%;
+    padding: 30px;
+    border: 2px solid black;
+    background-color: #3D2C8D;
+}
+
+
+.lastsec .cont .row {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.col4 .fa {
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+
+}
+
+.col4 .othercon h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    padding-right: 30px;
+    color: #ffffff;
+}
+
+.col4 .othercon p {
+    margin-left: 70px;
+    color: #ffffff;
+
+
+}
